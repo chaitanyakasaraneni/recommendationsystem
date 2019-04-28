@@ -9,7 +9,18 @@ After trial error with various K-means based algorithms, matrix factorization wa
 ```
 from surprise import SVD
 ```
+The SVD function can be utilised in the following way:(This is my implementation)
+```
+algo=SVD(n_epochs=50,lr_all=0.01,reg_all =0.04,n_factors =250)
 
+kf = KFold(n_splits=5)
+
+for trainset, testset in kf.split(data):
+    # train and test algorithm.
+    algo.fit(trainingSet)
+    predictions = algo.test(testset)
+    accuracy.rmse(predictions, verbose=True)
+```
 ### Data Description
 For this program we will use recommender system algorithms on the provided training dataset (train.csv) to traing a model that will be used to predict the ratings of a user for a book.
 - train.csv - the training set (User, Book, Rating)
