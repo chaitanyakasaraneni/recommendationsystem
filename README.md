@@ -26,3 +26,23 @@ for trainset, testset in kf.split(data):
     predictions = algo.test(testset)
     accuracy.rmse(predictions, verbose=True)
 ```
+### Instructions
+For installing surprise, numpy library is a pre-requisite. Install numpy using
+```
+pip install numpy
+```
+You need to install the surprise library which can be done by using the following command
+```
+pip install scikit-surprise
+```
+or with
+```
+conda install -c conda-forge scikit-surprise
+```
+or
+```
+pip install numpy cython
+git clone https://github.com/NicolasHug/surprise.git
+cd surprise
+python setup.py install
+```
