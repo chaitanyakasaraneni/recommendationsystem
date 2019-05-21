@@ -46,3 +46,4 @@ git clone https://github.com/NicolasHug/surprise.git
 cd surprise
 python setup.py install
 ```
+For more information and usgae instructions of the surprise library, [click here](http://surpriselib.com/).
