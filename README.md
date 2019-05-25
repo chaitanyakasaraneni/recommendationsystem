@@ -47,3 +47,20 @@ cd surprise
 python setup.py install
 ```
 For more information and usgae instructions of the surprise library, [click here](http://surpriselib.com/).
+
+### References:
+- https://surprise.readthedocs.io/en/stable/index.html
+- https://surprise.readthedocs.io/en/stable/prediction_algorithms.html
+- https://surprise.readthedocs.io/en/stable/co_clustering.html#surprise.prediction_algorithms.co_clustering.CoClustering
+- https://surprise.readthedocs.io/en/stable/matrix_factorization.html#surprise.prediction_algorithms.matrix_factorization.SVDpp
+- https://surprise.readthedocs.io/en/stable/matrix_factorization.html#surprise.prediction_algorithms.matrix_factorization.SVD
+- https://medium.com/datadriveninvestor/how-to-built-a-recommender-system-rs-616c988d64b2
+- https://github.com/rashmishrm/Collaborative-Filtering-Demo
+- https://cambridgespark.com/practical-introduction-to-recommender-systems/
+- https://www.ethanrosenthal.com/2016/01/09/explicit-matrix-factorization-sgd-als/
+- https://medium.com/@james_aka_yale/the-4-recommendation-engines-that-can-predict-your-movie-tastes-bbec857b8223
+- https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/
+- https://surprise.readthedocs.io/en/stable/matrix_factorization.html
+- https://kerpanic.wordpress.com/2018/03/26/a-gentle-guide-to-recommender-systems-with-surprise/
+- https://github.com/lppier/Recommender_Systems
+- https://github.com/nikunjlad/Movie-Recommendation-System-Using-Surprise/blob/master/Movie%20Recommender%20System.ipynb
